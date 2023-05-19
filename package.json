@@ -1,0 +1,41 @@
+{
+  "name": "onedrive-picker-file",
+  "version": "0.0.1",
+  "description": "SDK to construct and interact with the OneDrive v8 Picker",
+  "main": "dist/index.js",
+  "types": "dist/",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joevidev/onedrive-picker-file.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p .",
+    "watch": "tsc -p . --watch",
+    "clean": "del-cli \"./?(dist|build)\"",
+    "validate-package-content": "npx npm-packlist"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": [
+    "onedrive",
+    "file",
+    "picker",
+    "sdk",
+    "picker-api"
+  ],
+  "author": "Microsoft Corporation",
+  "license": "MIT",
+  "devDependencies": {
+    "del-cli": "^4.0.1",
+    "typescript": "^4.6.3"
+  },
+  "homepage": "https://github.com/OneDrive/samples/blob/master/samples/file-picking/sdk-pnptimeline/readme.md",
+  "dependencies": {
+    "@azure/msal-browser": "^2.23.0",
+    "@pnp/core": "^3.1.0",
+    "tslib": "^2.3.1"
+  }
+}
