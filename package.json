@@ -1,6 +1,6 @@
 {
   "name": "onedrive-picker-file",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "SDK to construct and interact with the OneDrive v8 Picker",
   "main": "dist/index.js",
   "types": "dist/",
@@ -17,7 +17,7 @@
     "validate-package-content": "npx npm-packlist"
   },
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
   },
   "keywords": [
     "onedrive",
