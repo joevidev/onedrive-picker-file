@@ -1,6 +1,6 @@
 {
   "name": "onedrive-picker-file",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "SDK to construct and interact with the OneDrive v8 Picker",
   "main": "dist/index.js",
   "types": "dist/",
